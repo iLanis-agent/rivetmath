@@ -1,0 +1,849 @@
+{
+ "cases": [
+  {
+   "fn": "length",
+   "args": [
+    "4",
+    "6"
+   ],
+   "expect": "The cut length for a grip of 6 mm and rivets of 4 mm comes to 12 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "300",
+    "10",
+    "20"
+   ],
+   "expect": "The seam of 300 mm with margins of 10 mm at a pitch of 20 mm takes 15 rivets."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "4"
+   ],
+   "expect": "The rivet of 4 mm asks for an edge distance of 8 mm and a pitch of 12 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "4",
+    "0.1"
+   ],
+   "expect": "The hole for a rivet of 4 mm with a clearance of 0.1 mm comes to 4.1 mm."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "31.92",
+    "975.14"
+   ],
+   "expect": "The cut length for a grip of 975.14 mm and rivets of 31.92 mm comes to 1023.02 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "57.77",
+    "627.96"
+   ],
+   "expect": "The cut length for a grip of 627.96 mm and rivets of 57.77 mm comes to 714.62 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "30.45",
+    "871.46"
+   ],
+   "expect": "The cut length for a grip of 871.46 mm and rivets of 30.45 mm comes to 917.14 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "22.52",
+    "46.73"
+   ],
+   "expect": "The cut length for a grip of 46.73 mm and rivets of 22.52 mm comes to 80.51 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "11.12",
+    "527.95"
+   ],
+   "expect": "The cut length for a grip of 527.95 mm and rivets of 11.12 mm comes to 544.63 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "66.03",
+    "282.42"
+   ],
+   "expect": "The cut length for a grip of 282.42 mm and rivets of 66.03 mm comes to 381.47 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "29.78",
+    "946.62"
+   ],
+   "expect": "The cut length for a grip of 946.62 mm and rivets of 29.78 mm comes to 991.29 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "68.98",
+    "985.03"
+   ],
+   "expect": "The cut length for a grip of 985.03 mm and rivets of 68.98 mm comes to 1088.5 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "88.5",
+    "800.61"
+   ],
+   "expect": "The cut length for a grip of 800.61 mm and rivets of 88.5 mm comes to 933.36 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "53.15",
+    "447.26"
+   ],
+   "expect": "The cut length for a grip of 447.26 mm and rivets of 53.15 mm comes to 526.99 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "46.51",
+    "768.57"
+   ],
+   "expect": "The cut length for a grip of 768.57 mm and rivets of 46.51 mm comes to 838.34 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "15.96",
+    "865.85"
+   ],
+   "expect": "The cut length for a grip of 865.85 mm and rivets of 15.96 mm comes to 889.79 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "92.61",
+    "891.63"
+   ],
+   "expect": "The cut length for a grip of 891.63 mm and rivets of 92.61 mm comes to 1030.55 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "93.85",
+    "10.11"
+   ],
+   "expect": "The cut length for a grip of 10.11 mm and rivets of 93.85 mm comes to 150.89 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "52.95",
+    "532.25"
+   ],
+   "expect": "The cut length for a grip of 532.25 mm and rivets of 52.95 mm comes to 611.68 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "56.95",
+    "571.98"
+   ],
+   "expect": "The cut length for a grip of 571.98 mm and rivets of 56.95 mm comes to 657.41 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "5.91",
+    "440.91"
+   ],
+   "expect": "The cut length for a grip of 440.91 mm and rivets of 5.91 mm comes to 449.78 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "87.51",
+    "917.54"
+   ],
+   "expect": "The cut length for a grip of 917.54 mm and rivets of 87.51 mm comes to 1048.81 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "1.5",
+    "568.76"
+   ],
+   "expect": "The cut length for a grip of 568.76 mm and rivets of 1.5 mm comes to 571.01 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "40.17",
+    "457.62"
+   ],
+   "expect": "The cut length for a grip of 457.62 mm and rivets of 40.17 mm comes to 517.88 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "55.5",
+    "220.89"
+   ],
+   "expect": "The cut length for a grip of 220.89 mm and rivets of 55.5 mm comes to 304.14 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "94.24",
+    "881.14"
+   ],
+   "expect": "The cut length for a grip of 881.14 mm and rivets of 94.24 mm comes to 1022.5 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "24.57",
+    "416.97"
+   ],
+   "expect": "The cut length for a grip of 416.97 mm and rivets of 24.57 mm comes to 453.83 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "43.19",
+    "532.82"
+   ],
+   "expect": "The cut length for a grip of 532.82 mm and rivets of 43.19 mm comes to 597.61 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "length",
+   "args": [
+    "94.71",
+    "186.39"
+   ],
+   "expect": "The cut length for a grip of 186.39 mm and rivets of 94.71 mm comes to 328.46 mm by the grip-plus-one-and-a-half-diameters rule."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3545.99",
+    "644.93",
+    "982.7"
+   ],
+   "expect": "The seam of 3545.99 mm with margins of 644.93 mm at a pitch of 982.7 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3880.36",
+    "797.18",
+    "862.76"
+   ],
+   "expect": "The seam of 3880.36 mm with margins of 797.18 mm at a pitch of 862.76 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3972.41",
+    "917.5",
+    "660.34"
+   ],
+   "expect": "The seam of 3972.41 mm with margins of 917.5 mm at a pitch of 660.34 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "646.23",
+    "85.33",
+    "305.24"
+   ],
+   "expect": "The seam of 646.23 mm with margins of 85.33 mm at a pitch of 305.24 mm takes 2 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2970.52",
+    "851.44",
+    "763.68"
+   ],
+   "expect": "The seam of 2970.52 mm with margins of 851.44 mm at a pitch of 763.68 mm takes 2 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2491.94",
+    "904.78",
+    "292.93"
+   ],
+   "expect": "The seam of 2491.94 mm with margins of 904.78 mm at a pitch of 292.93 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "956.85",
+    "106.87",
+    "623.7"
+   ],
+   "expect": "The seam of 956.85 mm with margins of 106.87 mm at a pitch of 623.7 mm takes 2 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3380.55",
+    "622.46",
+    "790.14"
+   ],
+   "expect": "The seam of 3380.55 mm with margins of 622.46 mm at a pitch of 790.14 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "1449.04",
+    "140.36",
+    "324.84"
+   ],
+   "expect": "The seam of 1449.04 mm with margins of 140.36 mm at a pitch of 324.84 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3126.4",
+    "732.24",
+    "73.09"
+   ],
+   "expect": "The seam of 3126.4 mm with margins of 732.24 mm at a pitch of 73.09 mm takes 23 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "1952.53",
+    "843.7",
+    "162.89"
+   ],
+   "expect": "The seam of 1952.53 mm with margins of 843.7 mm at a pitch of 162.89 mm takes 2 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3909.78",
+    "429.26",
+    "761.36"
+   ],
+   "expect": "The seam of 3909.78 mm with margins of 429.26 mm at a pitch of 761.36 mm takes 5 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "4484.03",
+    "880.3",
+    "748.82"
+   ],
+   "expect": "The seam of 4484.03 mm with margins of 880.3 mm at a pitch of 748.82 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2469.33",
+    "32.37",
+    "703.55"
+   ],
+   "expect": "The seam of 2469.33 mm with margins of 32.37 mm at a pitch of 703.55 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3831.16",
+    "789.78",
+    "392.02"
+   ],
+   "expect": "The seam of 3831.16 mm with margins of 789.78 mm at a pitch of 392.02 mm takes 6 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "1636.53",
+    "364.89",
+    "876.54"
+   ],
+   "expect": "The seam of 1636.53 mm with margins of 364.89 mm at a pitch of 876.54 mm takes 2 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2045.06",
+    "221.88",
+    "501.05"
+   ],
+   "expect": "The seam of 2045.06 mm with margins of 221.88 mm at a pitch of 501.05 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2424.8",
+    "6.93",
+    "894.9"
+   ],
+   "expect": "The seam of 2424.8 mm with margins of 6.93 mm at a pitch of 894.9 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "485.93",
+    "78.89",
+    "185.13"
+   ],
+   "expect": "The seam of 485.93 mm with margins of 78.89 mm at a pitch of 185.13 mm takes 2 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2385.11",
+    "662.39",
+    "447.53"
+   ],
+   "expect": "The seam of 2385.11 mm with margins of 662.39 mm at a pitch of 447.53 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3982.12",
+    "813.02",
+    "839.92"
+   ],
+   "expect": "The seam of 3982.12 mm with margins of 813.02 mm at a pitch of 839.92 mm takes 3 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2310.96",
+    "233.95",
+    "228.62"
+   ],
+   "expect": "The seam of 2310.96 mm with margins of 233.95 mm at a pitch of 228.62 mm takes 9 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "4680.07",
+    "845.83",
+    "798.7"
+   ],
+   "expect": "The seam of 4680.07 mm with margins of 845.83 mm at a pitch of 798.7 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "3167.17",
+    "119.23",
+    "907.95"
+   ],
+   "expect": "The seam of 3167.17 mm with margins of 119.23 mm at a pitch of 907.95 mm takes 4 rivets."
+  },
+  {
+   "fn": "count",
+   "args": [
+    "2050.12",
+    "690.46",
+    "303.76"
+   ],
+   "expect": "The seam of 2050.12 mm with margins of 690.46 mm at a pitch of 303.76 mm takes 3 rivets."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "25.38"
+   ],
+   "expect": "The rivet of 25.38 mm asks for an edge distance of 50.76 mm and a pitch of 76.14 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "90.28"
+   ],
+   "expect": "The rivet of 90.28 mm asks for an edge distance of 180.56 mm and a pitch of 270.84 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "11.36"
+   ],
+   "expect": "The rivet of 11.36 mm asks for an edge distance of 22.72 mm and a pitch of 34.08 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "28.04"
+   ],
+   "expect": "The rivet of 28.04 mm asks for an edge distance of 56.08 mm and a pitch of 84.12 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "24.7"
+   ],
+   "expect": "The rivet of 24.7 mm asks for an edge distance of 49.4 mm and a pitch of 74.1 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "96.46"
+   ],
+   "expect": "The rivet of 96.46 mm asks for an edge distance of 192.92 mm and a pitch of 289.38 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "60.83"
+   ],
+   "expect": "The rivet of 60.83 mm asks for an edge distance of 121.66 mm and a pitch of 182.49 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "39.85"
+   ],
+   "expect": "The rivet of 39.85 mm asks for an edge distance of 79.7 mm and a pitch of 119.55 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "62.89"
+   ],
+   "expect": "The rivet of 62.89 mm asks for an edge distance of 125.78 mm and a pitch of 188.67 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "46.55"
+   ],
+   "expect": "The rivet of 46.55 mm asks for an edge distance of 93.1 mm and a pitch of 139.65 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "18.11"
+   ],
+   "expect": "The rivet of 18.11 mm asks for an edge distance of 36.22 mm and a pitch of 54.33 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "58.62"
+   ],
+   "expect": "The rivet of 58.62 mm asks for an edge distance of 117.24 mm and a pitch of 175.86 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "30.65"
+   ],
+   "expect": "The rivet of 30.65 mm asks for an edge distance of 61.3 mm and a pitch of 91.95 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "98.76"
+   ],
+   "expect": "The rivet of 98.76 mm asks for an edge distance of 197.52 mm and a pitch of 296.28 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "51.98"
+   ],
+   "expect": "The rivet of 51.98 mm asks for an edge distance of 103.96 mm and a pitch of 155.94 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "7.68"
+   ],
+   "expect": "The rivet of 7.68 mm asks for an edge distance of 15.36 mm and a pitch of 23.04 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "5.7"
+   ],
+   "expect": "The rivet of 5.7 mm asks for an edge distance of 11.4 mm and a pitch of 17.1 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "26.87"
+   ],
+   "expect": "The rivet of 26.87 mm asks for an edge distance of 53.74 mm and a pitch of 80.61 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "81.75"
+   ],
+   "expect": "The rivet of 81.75 mm asks for an edge distance of 163.5 mm and a pitch of 245.25 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "edge",
+   "args": [
+    "0.43"
+   ],
+   "expect": "The rivet of 0.43 mm asks for an edge distance of 0.86 mm and a pitch of 1.29 mm by the two-diameter and three-diameter rules."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "85.35",
+    "2.49"
+   ],
+   "expect": "The hole for a rivet of 85.35 mm with a clearance of 2.49 mm comes to 87.84 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "13.31",
+    "9.9"
+   ],
+   "expect": "The hole for a rivet of 13.31 mm with a clearance of 9.9 mm comes to 23.21 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "92.4",
+    "9.4"
+   ],
+   "expect": "The hole for a rivet of 92.4 mm with a clearance of 9.4 mm comes to 101.8 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "44.18",
+    "8.3"
+   ],
+   "expect": "The hole for a rivet of 44.18 mm with a clearance of 8.3 mm comes to 52.48 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "37.09",
+    "3.17"
+   ],
+   "expect": "The hole for a rivet of 37.09 mm with a clearance of 3.17 mm comes to 40.26 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "68.49",
+    "2.42"
+   ],
+   "expect": "The hole for a rivet of 68.49 mm with a clearance of 2.42 mm comes to 70.91 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "64.9",
+    "0.21"
+   ],
+   "expect": "The hole for a rivet of 64.9 mm with a clearance of 0.21 mm comes to 65.11 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "82.7",
+    "0.36"
+   ],
+   "expect": "The hole for a rivet of 82.7 mm with a clearance of 0.36 mm comes to 83.06 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "46.72",
+    "3.7"
+   ],
+   "expect": "The hole for a rivet of 46.72 mm with a clearance of 3.7 mm comes to 50.42 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "10.3",
+    "5.52"
+   ],
+   "expect": "The hole for a rivet of 10.3 mm with a clearance of 5.52 mm comes to 15.82 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "4.17",
+    "8.82"
+   ],
+   "expect": "The hole for a rivet of 4.17 mm with a clearance of 8.82 mm comes to 12.99 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "92.36",
+    "2.97"
+   ],
+   "expect": "The hole for a rivet of 92.36 mm with a clearance of 2.97 mm comes to 95.33 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "45.32",
+    "1.75"
+   ],
+   "expect": "The hole for a rivet of 45.32 mm with a clearance of 1.75 mm comes to 47.07 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "81.56",
+    "5.18"
+   ],
+   "expect": "The hole for a rivet of 81.56 mm with a clearance of 5.18 mm comes to 86.74 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "12.52",
+    "4.8"
+   ],
+   "expect": "The hole for a rivet of 12.52 mm with a clearance of 4.8 mm comes to 17.32 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "82.99",
+    "7.9"
+   ],
+   "expect": "The hole for a rivet of 82.99 mm with a clearance of 7.9 mm comes to 90.89 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "48.75",
+    "7.63"
+   ],
+   "expect": "The hole for a rivet of 48.75 mm with a clearance of 7.63 mm comes to 56.38 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "19.47",
+    "1.85"
+   ],
+   "expect": "The hole for a rivet of 19.47 mm with a clearance of 1.85 mm comes to 21.32 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "73.69",
+    "3.5"
+   ],
+   "expect": "The hole for a rivet of 73.69 mm with a clearance of 3.5 mm comes to 77.19 mm."
+  },
+  {
+   "fn": "hole",
+   "args": [
+    "24.05",
+    "0.84"
+   ],
+   "expect": "The hole for a rivet of 24.05 mm with a clearance of 0.84 mm comes to 24.89 mm."
+  }
+ ],
+ "errors": [
+  [
+   "length",
+   [
+    "0",
+    "6"
+   ]
+  ],
+  [
+   "length",
+   [
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "length",
+   [
+    "100.01",
+    "6"
+   ]
+  ],
+  [
+   "length",
+   [
+    "abc",
+    "6"
+   ]
+  ],
+  [
+   "count",
+   [
+    "300",
+    "150",
+    "20"
+   ]
+  ],
+  [
+   "count",
+   [
+    "300",
+    "10",
+    "300"
+   ]
+  ],
+  [
+   "count",
+   [
+    "0",
+    "10",
+    "20"
+   ]
+  ],
+  [
+   "count",
+   [
+    "300",
+    "10",
+    "0"
+   ]
+  ],
+  [
+   "edge",
+   [
+    "0"
+   ]
+  ],
+  [
+   "edge",
+   [
+    "100.01"
+   ]
+  ],
+  [
+   "hole",
+   [
+    "4",
+    "10.01"
+   ]
+  ],
+  [
+   "hole",
+   [
+    "0",
+    "0.1"
+   ]
+  ]
+ ]
+}
